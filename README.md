@@ -89,7 +89,7 @@ fastq-dump  --fasta  ./SRR306998.sra  -O ./   ----转---fasta
 
 
 
-### <p align="center"><span id="距离计算">三、距离计算:</span></p>
+### <span id="数据处理"><p align="center">三、距离计算:</p></span>
 #### <span id="cafe">cafe:</span>
 - 简易使用：
 ```
@@ -131,7 +131,7 @@ https://github.com/shahab-sarmashghi/Skmer
 
 
 
-### <center><span id="数据分析">四、数据分析</span>
+### <span id="数据分析"><p align="center">四、数据分析</p></span>
 #### <span id="mega">mega:</span>
 - 简易使用：
 输入是R处理好的nwk文件，可以多棵树同时操作，放大缩小加颜色，
