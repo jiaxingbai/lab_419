@@ -1,7 +1,7 @@
 ## <p align="center">lab_419--工具集</p>
 
 ## <p align="center">目录</p>
-[sample](#sample)：新增例子
+[sample](#sample)：添加的例子
 #### 一、数据获取
 
 - 1、[ncbi](https://www.ncbi.nlm.nih.gov/)
@@ -16,7 +16,8 @@
 - 1、[kmc](#kmc)：计算kmer频度
 - 2、[metaphlan](#metaphlan):测序数据转丰度数据
 - 3、[sratoolkit](#sratoolkit)：下载srr文件，并转换为fasta格式
-- 4、fastq转fasta
+- 4、[cap3](#cap3)：拼装短序列
+- 5、fastq转fasta
 ```
 awk '{if(NR%4 == 1){print ">" substr($0, 2)}}{if(NR%4 == 2){print}}' fastq > fasta
 ```
@@ -25,7 +26,7 @@ awk '{if(NR%4 == 1){print ">" substr($0, 2)}}{if(NR%4 == 2){print}}' fastq > fas
 - 1、[cafe](#cafe)：多种距离计算方式
 - 2、[Afnn](#Afann)：alignment-free计算方法
 - 3、[mash](#mash):依据kmer缺失计算
-- 4、[skmer](#skmer):mash优化后的环境变量
+- 4、[skmer](#skmer):mash优化后的
 
 #### 四、[数据分析](数据分析)
 - 1、[mega](mega)：距离矩阵转进化树图
@@ -41,7 +42,7 @@ awk '{if(NR%4 == 1){print ">" substr($0, 2)}}{if(NR%4 == 2){print}}' fastq > fas
 #### <span id="sample">sample:</span>
 - 简易使用：
 ``` 
-新工具
+sample
 ```
 - 支持文档：
 https://sample.com
@@ -86,6 +87,14 @@ fastq-dump  ./SRR***.sra -O ./   ---转fastq
 fastq-dump  --fasta  ./SRR306998.sra  -O ./   ----转---fasta
 ```
 - 支持文档：
+
+#### <span id="cap3">cap3:</span>
+- 简易使用：
+``` 
+/home/yingwang/tools/cap3 input.fa -i 30 -j 31 -o 18 -s 300
+
+```
+
 
 
 
@@ -134,7 +143,7 @@ https://github.com/shahab-sarmashghi/Skmer
 ### <span id="数据分析"><p align="center">四、数据分析</p></span>
 #### <span id="mega">mega:</span>
 - 简易使用：
-输入是R处理好的nwk文件，输出是树图，可以多棵树同时操作，放大缩小加颜色，
+输入是R处理好的nwk文件，可以多棵树同时操作，放大缩小加颜色，
 - 支持文档：
 https://www.megasoftware.net/
 
