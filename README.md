@@ -46,7 +46,7 @@ sample
 - 支持文档：
 https://sample.com
 
-### <span id="数据处理"><center>二、数据处理:</span>
+### <span id="数据处理"><center>二、数据处理:</center></span>
 #### <span id="kmc">kmc:</span>
 - 简易使用：
 ```
@@ -89,7 +89,7 @@ fastq-dump  --fasta  ./SRR306998.sra  -O ./   ----转---fasta
 
 
 
-### <center><span id="距离计算">三、距离计算:</span>
+### <p align="center"><span id="距离计算">三、距离计算:</span></p>
 #### <span id="cafe">cafe:</span>
 - 简易使用：
 ```
