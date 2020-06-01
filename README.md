@@ -87,6 +87,7 @@ fastq-dump  ./SRR***.sra -O ./   ---转fastq
 fastq-dump  --fasta  ./SRR306998.sra  -O ./   ----转---fasta
 ```
 - 支持文档：
+https://www.cnblogs.com/OA-maque/p/4799074.html
 
 #### <span id="cap3">cap3:</span>
 - 简易使用：
