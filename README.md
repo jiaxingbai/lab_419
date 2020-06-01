@@ -9,7 +9,7 @@
 - 2、[ncbi_jp](https://trace.ddbj.nig.ac.jp/DRASearch/)
     获取链接通过wget下载
 - 3、 [hmp](https://www.hmpdacc.org/ihmp/)
-- 4、 [Aspera]:快速下载
+- 4、 [Aspera](ascp.md):快速下载SRR等文件
       
 
 #### 二、[数据处理](#数据处理)
