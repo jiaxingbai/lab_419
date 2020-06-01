@@ -1,7 +1,7 @@
-## lab_419--工具集
+<p align="cneter>"## lab_419--工具集</p>
 [sample](#sample)：添加的例子
 
-## <center>目录</center>
+## <p align="center>"目录</p>
 #### 一、数据获取
 
 - 1、[ncbi](https://www.ncbi.nlm.nih.gov/)
