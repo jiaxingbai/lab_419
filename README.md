@@ -46,7 +46,7 @@ sample
 - 支持文档：
 https://sample.com
 
-### <span id="数据处理"><center>二、数据处理:</center></span>
+### <span id="数据处理"><p align="center">二、数据处理:</p></span>
 #### <span id="kmc">kmc:</span>
 - 简易使用：
 ```
