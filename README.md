@@ -116,7 +116,7 @@ python afann.py -r -a d2star,d2shepp -k 5 -m 0 -f test_file.txt -t 8 -d test_cou
 - 支持文档：
 https://github.com/GeniusTang/Afann
 
-#### <span id="skmer">skmer:</span>
+#### <span id="mash">mash:</span>
 - 简易使用：
 ```
 ./mash sketch /home/yingwang/jiaxing/MammalianGut_Fna/*C.fna  /home/yingwang/jiaxing/MammalianGut_Fna/*H.fna -k 14 -o mammaliangutmash14
