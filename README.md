@@ -25,7 +25,7 @@ awk '{if(NR%4 == 1){print ">" substr($0, 2)}}{if(NR%4 == 2){print}}' fastq > fas
 - 1、[cafe](#cafe)：多种距离计算方式
 - 2、[Afnn](#Afann)：alignment-free计算方法
 - 3、[mash](#mash):依据kmer缺失计算
-- 4、[skmer](#skmer):mash优化后的
+- 4、[skmer](#skmer):mash优化后的环境变量
 
 #### 四、[数据分析](数据分析)
 - 1、[mega](mega)：距离矩阵转进化树图
@@ -134,7 +134,7 @@ https://github.com/shahab-sarmashghi/Skmer
 ### <span id="数据分析"><p align="center">四、数据分析</p></span>
 #### <span id="mega">mega:</span>
 - 简易使用：
-输入是R处理好的nwk文件，可以多棵树同时操作，放大缩小加颜色，
+输入是R处理好的nwk文件，输出是树图，可以多棵树同时操作，放大缩小加颜色，
 - 支持文档：
 https://www.megasoftware.net/
 
