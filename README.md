@@ -1,4 +1,4 @@
-<p align="cneter>"## lab_419--工具集</p>
+## <p align="cneter"> lab_419--工具集</p>
 [sample](#sample)：添加的例子
 
 ## <p align="center>"目录</p>
