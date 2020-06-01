@@ -1,7 +1,7 @@
-## <p align="cneter"> lab_419--工具集</p>
+## <p align="center">lab_419--工具集</p>
 [sample](#sample)：添加的例子
 
-## <p align="center>"目录</p>
+## <p align="center">目录</p>
 #### 一、数据获取
 
 - 1、[ncbi](https://www.ncbi.nlm.nih.gov/)
@@ -89,7 +89,7 @@ fastq-dump  --fasta  ./SRR306998.sra  -O ./   ----转---fasta
 
 
 
-### <span id="数据处理"><p align="center">三、距离计算:</p></span>
+### <span id="距离计算"><p align="center">三、距离计算:</p></span>
 #### <span id="cafe">cafe:</span>
 - 简易使用：
 ```
