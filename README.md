@@ -1,7 +1,7 @@
 ## <p align="center">lab_419--工具集</p>
-[sample](#sample)：添加的例子
 
 ## <p align="center">目录</p>
+[sample](#sample)：添加的例子
 #### 一、数据获取
 
 - 1、[ncbi](https://www.ncbi.nlm.nih.gov/)
@@ -37,7 +37,7 @@ awk '{if(NR%4 == 1){print ">" substr($0, 2)}}{if(NR%4 == 2){print}}' fastq > fas
 
 
 
-### <center>工具介绍：
+## <p align="center">工具介绍：</p>
 #### <span id="sample">sample:</span>
 - 简易使用：
 ``` 
