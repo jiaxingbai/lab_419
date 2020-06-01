@@ -1,7 +1,7 @@
 ## <p align="center">lab_419--工具集</p>
 
 ## <p align="center">目录</p>
-[sample](#sample)：添加的例子
+[sample](#sample)：新增例子
 #### 一、数据获取
 
 - 1、[ncbi](https://www.ncbi.nlm.nih.gov/)
@@ -26,7 +26,7 @@ awk '{if(NR%4 == 1){print ">" substr($0, 2)}}{if(NR%4 == 2){print}}' fastq > fas
 - 1、[cafe](#cafe)：多种距离计算方式
 - 2、[Afnn](#Afann)：alignment-free计算方法
 - 3、[mash](#mash):依据kmer缺失计算
-- 4、[skmer](#skmer):mash优化后的
+- 4、[skmer](#skmer):mash优化后的工具
 
 #### 四、[数据分析](数据分析)
 - 1、[mega](mega)：距离矩阵转进化树图
@@ -42,7 +42,7 @@ awk '{if(NR%4 == 1){print ">" substr($0, 2)}}{if(NR%4 == 2){print}}' fastq > fas
 #### <span id="sample">sample:</span>
 - 简易使用：
 ``` 
-sample
+sample：新增
 ```
 - 支持文档：
 https://sample.com
