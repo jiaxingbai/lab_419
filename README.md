@@ -52,7 +52,7 @@ https://sample.com
 ```
 kmc -k8 -ci2 -cs65536000 -t10 -fm -b -v input output1 ./
 kmc_dump2 ouput1  ouput 
-#output1由一产生，kmc_dump产生二进制文件，kmc_dump产生十进制
+#output1由一产生，kmc_dump2产生二进制文件，kmc_dump产生十进制
 ```
 - 支持文档：
 http://sun.aei.polsl.pl/REFRESH/index.php?page=projects&project=kmc&subpage=about
